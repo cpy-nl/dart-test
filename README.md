@@ -5,3 +5,13 @@ A web app that uses [AngularDart](https://webdev.dartlang.org/angular) and
 
 Created from templates made available by Stagehand under a BSD-style
 [license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+
+## Todo:
+
+* ~~Get started~~
+* ~~Add editor~~
+* ~~Add Master/Detail~~
+* ~~Add multiple components~~
+* ~~Add a service~~
+* ~~Add routing~~
+* Add remote data access
