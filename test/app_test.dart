@@ -6,8 +6,8 @@ import 'package:tour_of_heroes/app_component.template.dart' as ng;
 
 void main() {
   final testBed =
-      NgTestBed.forComponent<AppComponent>(ng.AppComponentNgFactory);
-  NgTestFixture<AppComponent> fixture;
+    NgTestBed.forComponent<AppComponent>(ng.AppComponentNgFactory);
+    NgTestFixture<AppComponent> fixture;
 
   setUp(() async {
     fixture = await testBed.create();

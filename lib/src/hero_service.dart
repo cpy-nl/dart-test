@@ -7,4 +7,7 @@ class HeroService {
   Future<List<Hero>> getAll() async => mockHeroes;
   // getAll() signature is synchronous, returns list immidiately
   // async sets return type to Future
+
+  Future<Hero> get(int id) async =>
+    (await getAll()).firstWhere((hero) => hero.id == id);
 }
